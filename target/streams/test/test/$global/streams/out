@@ -1,0 +1,32 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List()[0m
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 2 initial tasks for 2 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(controllers.HomeControllerSpec, sbt.ForkMain$SubclassFingerscan@648882c2, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mHomeControllerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mHomeController GET[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render the index page from a new instance of controller[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render the index page from the application[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render the index page from the router[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(controllers.WelcomeControllerSpec, sbt.ForkMain$SubclassFingerscan@754dea92, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mWelcomeControllerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mWelcomeController GET[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a successful response[0m[0m
+[0m[[0minfo[0m] [0m[32m- respond to the /welcome url[0m[0m
+[0m[[0minfo[0m] [0m[32m- return some html[0m[0m
+[0m[[0minfo[0m] [0m[32m- say good morning and have a title[0m[0m
+[0m[[0minfo[0m] [0m[32m- say good afternoon and have a title[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0mdebug[0m] [0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 567 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 8, Failed 0, Errors 0, Passed 8[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	controllers.HomeControllerSpec[0m
+[0m[[0mdebug[0m] [0m	controllers.WelcomeControllerSpec[0m

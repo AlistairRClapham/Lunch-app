@@ -1,0 +1,10 @@
+test
+compile
+run
+sbt run
+test
+~test
+clean
+compile
+test
+~test
